@@ -19,8 +19,8 @@ Here are some ideas to get you started:
 
 
 - 😄 Freshman Majoring in Software Engineering at NJU.
-- 🔭 Currently self-learning Operating System & Advanced Java(Android or Java EE?) ~
-
+- 🔭 Currently self-learning Operating System & Compiler ~
+- To-study List: Java EE & Android
 
 [![lyc8503's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyc8503&layout=compact&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lyc8503&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
