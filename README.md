@@ -19,8 +19,9 @@ Here are some ideas to get you started:
 
 
 - 😄 Freshman Majoring in Software Engineering at NJU.
-- 🔭 Currently self-learning Java Spring & Android(kotlin?).
-- ⚡ To-study List: My OS.
+- ~~🔭 Currently self-learning Java Spring & Android(kotlin?).~~
+- ~~⚡ To-study List: My OS.~~
+- 🐟 Fish touching.
 
 [![lyc8503's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu)](https://github.com/anuraghazra/github-readme-stats)
