@@ -19,8 +19,8 @@ Here are some ideas to get you started:
 
 
 - 😄 Sophomore Majoring in Software Engineering at NJU.
-- 🔭 Currently self-learning Java Spring & JVM.
-- ⚡ To-study List: PyTorch.
+- 🔭 Currently self-learning Java Spring & Computer Networking.
+- ⚡ To-study List: PyTorch & Data Analysis.
 - 🐟 Fish touching.
 
 [![lyc8503's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
