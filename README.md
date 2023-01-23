@@ -22,6 +22,7 @@ Here are some ideas to get you started:
 - 🔭 Currently self-learning Java Spring & Computer Networking.
 - ⚡ To-study List: PyTorch & Data Analysis.
 - 🐟 Fish touching.
+- 🔑 [My GPG Pubkey](https://www.lyc8503.site/lyc8503_0x282D1480_public.asc)
 
 [![lyc8503's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu)](https://github.com/anuraghazra/github-readme-stats)
