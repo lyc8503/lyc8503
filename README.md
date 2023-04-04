@@ -4,6 +4,18 @@
  
  ✔ Status Page: [https://status.lyc8503.site](https://status.lyc8503.site)
 
+<!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
+
+<!--START-->
+- 😄 Sophomore Majoring in Software Engineering at NJU.
+- 🔭 Currently self-learning Java Spring & Computer Networking.
+- ⚡ To-study List: PyTorch & Data Analysis.
+- 🐟 Fish touching.<!--END-->
+- 🔑 [My GPG Pubkey](https://gist.github.com/lyc8503/bfb02e88b4a442887a258eacbbc52e6d)
+
+[![lyc8503's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu)](https://github.com/anuraghazra/github-readme-stats)
+
 <!--
 **lyc8503/lyc8503** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,16 +30,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-
-- 😄 Sophomore Majoring in Software Engineering at NJU.
-- 🔭 Currently self-learning Java Spring & Computer Networking.
-- ⚡ To-study List: PyTorch & Data Analysis.
-- 🐟 Fish touching.
-- 🔑 [My GPG Pubkey](https://gist.github.com/lyc8503/bfb02e88b4a442887a258eacbbc52e6d)
-
-[![lyc8503's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Some Interesting Toys
 
