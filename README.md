@@ -7,7 +7,7 @@
 <!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
 
 <!--START-->
-- 😄 Sophomore Majoring in Software Engineering at NJU.
+- 😄 Junior Majoring in Software Engineering at NJU.
 - 🔭 Currently self-learning Java Spring & Computer Networking.
 - ⚡ To-study List: PyTorch & Data Analysis.
 - 🐟 Fish touching.<!--END-->
