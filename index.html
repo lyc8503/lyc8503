@@ -138,13 +138,13 @@
                             term.writeln("cat: " + parts[1] + ": No such file")
                             return
                         }
+                        
                         try {
                             const gpgKey = await ((await fetch("/lyc8503_gpg_public.key")).text())
+                            term.writeln(gpgKey.replaceAll("\n", "\r\n"))
                         } catch (e) {
                             term.writeln("Error fetching GPG key, please check it out at my GitHub profile via `cd github`.")
                         }
-                        term.writeln(gpgKey.replaceAll("\n", "\r\n"))
-
                     }
                 },
                 "clear": {
