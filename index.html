@@ -52,7 +52,7 @@
 
         let readmeInfo = ""
 
-        fetch("https://www.lyc8503.site/lyc8503/README.md").then(async data => {
+        fetch("/README.md").then(async data => {
             readmeInfo = await data.text()
         })
 
@@ -138,8 +138,11 @@
                             term.writeln("cat: " + parts[1] + ": No such file")
                             return
                         }
-
-                        const gpgKey = await ((await fetch("https://gist.githubusercontent.com/lyc8503/bfb02e88b4a442887a258eacbbc52e6d/raw/e42ce89e60cfd14516a78d41a8c3d29331b998b1/lyc8503_gpg_public.key")).text())
+                        try {
+                            const gpgKey = await ((await fetch("/lyc8503_gpg_public.key")).text())
+                        } catch (e) {
+                            term.writeln("Error fetching GPG key, please check it out at my GitHub profile via `cd github`.")
+                        }
                         term.writeln(gpgKey.replaceAll("\n", "\r\n"))
 
                     }
