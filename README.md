@@ -2,7 +2,7 @@
 
  💬 My Blog: [https://blog.lyc8503.site](https://blog.lyc8503.site)
  
- ✔ Status Page: [https://status.lyc8503.site](https://status.lyc8503.site)
+ ✔ Status Page: Working In Progress
 
 <!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
 
