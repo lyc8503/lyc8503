@@ -2,14 +2,14 @@
 
  💬 My Blog: [https://blog.lyc8503.site](https://blog.lyc8503.site)
  
- ✔ Status Page: Working In Progress
+ ✔ Status Page: https://uptimeflare.pages.dev/ powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 
 <!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
 
 <!--START-->
 - 😄 Junior Majoring in Software Engineering at NJU.
-- 🔭 Currently self-learning Java Spring & Computer Networking.
-- ⚡ To-study List: PyTorch & Data Analysis.
+- 🔭 Currently working on some frontend / Typescript.
+- ⚡ To-study List: FPGA & Windows kernel driver (maybe).
 - 🐟 Fish touching.<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key)
 
