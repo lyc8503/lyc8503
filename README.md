@@ -2,7 +2,7 @@
 
  💬 My Blog: [https://blog.lyc8503.site](https://blog.lyc8503.site)
  
- ✔ Status Page: https://uptimeflare.pages.dev/ powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
+ ✔ Status Page: https://status.lyc8503.site / https://uptimeflare.pages.dev (backup) powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 
 <!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
 
