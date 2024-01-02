@@ -8,8 +8,8 @@
 
 <!--START-->
 - 😄 Junior Majoring in Software Engineering at NJU.
-- 🔭 Currently working on some frontend / Typescript.
-- ⚡ To-study List: FPGA & Windows kernel driver (maybe).
+- 🔭 Currently learning some Deep Learning related techniques.
+- ⚡ To-study/do List: Rust & Windows kernel driver (maybe), Golang NAT hole-punching.
 - 🐟 Fish touching.<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key)
 
