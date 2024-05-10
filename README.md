@@ -8,8 +8,8 @@
 
 <!--START-->
 - 😄 Junior Majoring in Software Engineering at NJU.
-- 🔭 Currently learning some Deep Learning related techniques.
-- ⚡ To-study/do List: Rust & Windows kernel driver (maybe).
+- 🔭 Currently trying to make some contributions to CPython, exploring [Android & Windows on ARM on Dimensity](https://blog.lyc8503.site/post/android-kvm-on-mediatek/).
+- ⚡ To-study/do List: IDK either, maybe learn more C++ in my summer internship.
 - 🐟 Fish touching.<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key)
 
