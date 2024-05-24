@@ -7,7 +7,7 @@
 <!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
 
 <!--START-->
-- 😄 Junior Majoring in Software Engineering at NJU.
+- 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU. | 我是古希腊掌管 prompt 的神!
 - 🔭 Currently trying to make some contributions to CPython, exploring [Android & Windows on ARM on Dimensity](https://blog.lyc8503.site/post/android-kvm-on-mediatek/).
 - ⚡ To-study/do List: IDK either, maybe learn more C++ in my summer internship.
 - 🐟 Fish touching.<!--END-->
