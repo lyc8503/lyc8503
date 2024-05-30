@@ -11,6 +11,7 @@
 - 🔭 Currently trying to make some contributions to CPython, exploring [Android & Windows on ARM on Dimensity](https://blog.lyc8503.site/post/android-kvm-on-mediatek/).
 - ⚡ To-study/do List: IDK either, maybe learn more C++ in my summer internship.
 - 🐟 Fish touching.<!--END-->
+- ❤ Donate: https://afdian.net/a/lyc8503
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key)
 
 [![lyc8503's GitHub stats](https://github-readme-stats-git-master-lyc8503.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&number_format=long)](https://github.com/anuraghazra/github-readme-stats)
