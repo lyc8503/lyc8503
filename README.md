@@ -2,20 +2,22 @@
 
  💬 My Blog: [https://blog.lyc8503.site](https://blog.lyc8503.site)
  
- ✔ Status Page: https://status.lyc8503.site / https://uptimeflare.pages.dev (backup) powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
+ ✔ Status Page: https://status.lyc8503.site powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 
 <!--The START and END comments below are used in scripts at https://lyc8503.site/ -->
 
 <!--START-->
 - 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU. | 我是古希腊掌管 prompt 的神!
 - 🔭 Currently trying to make some contributions to CPython, exploring [Android & Windows on ARM on Dimensity](https://blog.lyc8503.site/post/android-kvm-on-mediatek/).
-- ⚡ To-study/do List: IDK either, maybe learn more C++ in my summer internship.
-- 🐟 Fish touching.<!--END-->
-- ❤ Donate: https://afdian.net/a/lyc8503
+- ⚡ To-study/do List: Write some more blogs, try to operate an [autonomous system](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)), maybe learn more C++ in my summer internship.
+- 🐟 Fish touching.
+- 🎮 Sometimes play [Minecraft](https://www.minecraft.net/) modpacks.<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key)
 
-[![lyc8503's GitHub stats](https://github-readme-stats-git-master-lyc8503.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&number_format=long)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats-git-master-lyc8503.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu)](https://github.com/anuraghazra/github-readme-stats)
+<div style="display: flex; align-items: flex-start;">
+    <img align="center" src="https://github-readme-stats-git-master-lyc8503.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&number_format=long" />
+    <img align="center" src="https://github-readme-stats-git-master-lyc8503.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu" style="height: 195px" />
+</div>
 
 <!--
 **lyc8503/lyc8503** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
