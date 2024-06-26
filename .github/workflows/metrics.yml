@@ -14,5 +14,7 @@ jobs:
       - uses: lyc8503/my-readme-metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          base_indepth: true
+          
           output_action: gist
           committer_gist: 6603b256c1e5bf1d0452c57200526d05
