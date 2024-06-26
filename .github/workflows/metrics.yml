@@ -15,8 +15,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base_indepth: true
-          debug: true
-          debug_print: true
+          repositories_forks: true
           
           output_action: gist
           committer_gist: 6603b256c1e5bf1d0452c57200526d05
