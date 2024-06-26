@@ -15,4 +15,4 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
-          committer_gist: aff86be3f2dd4f8f509163352183662f
+          committer_gist: 6603b256c1e5bf1d0452c57200526d05
