@@ -25,6 +25,8 @@ jobs:
           plugin_languages_skipped: |
             lyc8503/cpython
 
+          debug: true
+
           plugin_isocalendar: true
 
           plugin_reactions: true
