@@ -16,7 +16,9 @@
 
 ---
 
-<img src="https://gist.githubusercontent.com/lyc8503/6603b256c1e5bf1d0452c57200526d05/raw/github-metrics.svg" alt="Metrics" width="100%">
+<picture>
+  <img src="https://gist.githubusercontent.com/lyc8503/6603b256c1e5bf1d0452c57200526d05/raw/github-metrics.svg" alt="Metrics" width="100%">
+</picture>
 
 <!--
 **lyc8503/lyc8503** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
