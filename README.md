@@ -14,10 +14,9 @@
 - 🎮 Sometimes play Minecraft modpacks, currently playing Enigmatica 2: Expert.<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
 
-<div style="display: flex; align-items: flex-start;">
-    <img align="center" src="https://github-readme-stats-git-master-lyc8503.vercel.app/api?username=lyc8503&layout=compact&show_icons=true&number_format=long" />
-    <img align="center" src="https://github-readme-stats-git-master-lyc8503.vercel.app/api/top-langs/?username=lyc8503&layout=compact&exclude_repo=nju-ics-2020-spring-nemu" style="height: 195px" />
-</div>
+---
+
+<img src="https://gist.githubusercontent.com/lyc8503/6603b256c1e5bf1d0452c57200526d05/raw/github-metrics.svg" alt="Metrics" width="100%">
 
 <!--
 **lyc8503/lyc8503** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
