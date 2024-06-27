@@ -32,14 +32,12 @@ jobs:
             blog.lyc8503.net-PersonalBlog
             nju-ics-2020-spring-nemu
 
-          debug: true
-
           plugin_isocalendar: true
 
           plugin_reactions: true
 
+          # 16personalities data is hardcoded in lyc8503/my-readme-metrics, i know this is very stupid but...
           plugin_16personalities: true
-          plugin_16personalities_url: https://www.16personalities.com/profiles/c6b8ba43d1049
 
           plugin_rss: true
           plugin_rss_source: https://blog.lyc8503.net/atom.xml
