@@ -16,6 +16,17 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base_indepth: true
           repositories_forks: true
+
+          plugin_languages: true
+          plugin_languages_other: true
+
+          plugin_isocalendar: true
+
+          plugin_reactions: true
+
+          plugin_rss: true
+          plugin_rss_source: https://blog.lyc8503.net/atom.xml
+          plugin_rss_limit: 4
           
           output_action: gist
           committer_gist: 6603b256c1e5bf1d0452c57200526d05
