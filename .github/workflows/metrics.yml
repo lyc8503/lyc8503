@@ -43,6 +43,6 @@ jobs:
           plugin_rss_source: https://blog.lyc8503.net/atom.xml
           plugin_rss_limit: 4
 
-          config_display: columns
+          config_display: large
           output_action: gist
           committer_gist: 6603b256c1e5bf1d0452c57200526d05
