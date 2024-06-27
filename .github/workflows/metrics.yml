@@ -18,15 +18,24 @@ jobs:
           repositories_forks: true
 
           plugin_languages: true
+          plugin_languages_indepth: true
           plugin_languages_other: true
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_skipped: |
+            lyc8503/cpython
 
           plugin_isocalendar: true
 
           plugin_reactions: true
 
+          plugin_16personalities: true
+          plugin_16personalities_url: https://www.16personalities.com/profiles/intp-a/m/bpafsndcn
+
           plugin_rss: true
           plugin_rss_source: https://blog.lyc8503.net/atom.xml
           plugin_rss_limit: 4
-          
+
+          config_display: columns
           output_action: gist
           committer_gist: 6603b256c1e5bf1d0452c57200526d05
