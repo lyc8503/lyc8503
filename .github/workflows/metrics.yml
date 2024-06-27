@@ -19,14 +19,17 @@ jobs:
 
           plugin_languages: true
           plugin_languages_indepth: true
-          plugin_languages_other: true
+          plugin_languages_other: false
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_details: lines
           plugin_languages_skipped: |
             cpython
             kernel_xiaomi_chopin_android_S
             android_kernel_chopin_android_T
             kernel_xiaomi_chopin
+            kernel-builder-chopin
+            blog.lyc8503.net-PersonalBlog
 
           debug: true
 
