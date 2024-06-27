@@ -23,7 +23,10 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_skipped: |
-            lyc8503/cpython
+            cpython
+            kernel_xiaomi_chopin_android_S
+            android_kernel_chopin_android_T
+            kernel_xiaomi_chopin
 
           debug: true
 
