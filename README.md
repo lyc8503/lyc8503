@@ -7,11 +7,11 @@
 <!--The START and END comments below are used in scripts at https://lyc8503.net/ -->
 
 <!--START-->
-- 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU. | 我是古希腊掌管 prompt 的神!
-- 🔭 Currently trying to operate an autonomous system.
-- ⚡ To-study/do List: Write some more blogs, maybe learn more C++ in my summer internship.
-- 🐟 Fish touching.
-- 🎮 Sometimes play Minecraft modpacks, currently playing Enigmatica 2: Expert.<!--END-->
+- 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU | 我是古希腊掌管 prompt 的神!
+- 🔭 Currently trying to operate an autonomous system
+- ⚡ To-study/do List: More experiments on my own ASN
+- 🐟 Fish touching
+- 🎮 Sometimes play Minecraft modpacks, currently playing Enigmatica 2: Expert<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
 
 ---
