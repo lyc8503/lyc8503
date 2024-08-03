@@ -17,8 +17,6 @@ jobs:
           base_indepth: true
           repositories_forks: true
 
-          debug: true
-
           plugin_languages: true
           plugin_languages_indepth: true
           plugin_languages_other: false
