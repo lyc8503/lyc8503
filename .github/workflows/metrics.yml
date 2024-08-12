@@ -6,6 +6,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment: 
       name: production
     permissions:
