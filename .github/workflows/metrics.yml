@@ -17,8 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base_indepth: true
           repositories_forks: true
-
-          debug: true
+          # debug: true
 
           plugin_languages: true
           plugin_languages_indepth: true
@@ -34,6 +33,8 @@ jobs:
             kernel-builder-chopin
             blog.lyc8503.net-PersonalBlog
             nju-ics-2020-spring-nemu
+          plugin_languages_indepth_custom: |
+            NJU-uFFFD/DDLChecker
 
           plugin_isocalendar: true
 
