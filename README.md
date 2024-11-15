@@ -8,10 +8,11 @@
 
 <!--START-->
 - 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU | 我是古希腊掌管 prompt 的神!
-- 🔭 Currently trying to operate an autonomous system
-- ⚡ To-study/do List: More experiments on my own ASN
+- 💻 Working as an intern at [@bytedance](https://github.com/bytedance), Shanghai
+- 🔭 Currently trying to operate AS214775 & learning double pinyin IME
+- ⚡ To-study/do List: An incoming UptimeFlare major upgrade, Build Android 15 AOSP for pdx206, Train my own LLM
 - 🐟 Fish touching
-- 🎮 Sometimes play Minecraft modpacks, currently playing Enigmatica 2: Expert<!--END-->
+- 🎮 Sometimes play Minecraft modpacks, currently playing ~~Enigmatica 2: Expert~~ Art of Enigma<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
 
 ---
