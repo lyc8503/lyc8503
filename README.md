@@ -9,9 +9,9 @@
 <!--START-->
 - 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU | 我是古希腊掌管 prompt 的神!
 - 🔭 Currently trying to play with Apache Spark to build a recommendation system, and training my own LLM.
-- ⚡ To-study/do List: An incoming UptimeFlare major upgrade, Learn double pinyin IME.
+- ⚡ To-study/do List: IDK, maybe learn double pinyin IME.
 - 🐟 Fish touching
-- 🎮 Sometimes play Minecraft modpacks, currently playing ~~Enigmatica 2: Expert~~ Art of Enigma<!--END-->
+- 🎮 Sometimes play Minecraft modpacks/Touhou, currently playing ~~Enigmatica 2: Expert~~ Infinity Evolved<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
 
 ---
