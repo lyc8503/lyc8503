@@ -1,8 +1,8 @@
 ### Hi there 👋
 
- 💬 My Blog: [https://blog.lyc8503.net](https://blog.lyc8503.net)
- 
- ✔ Status Page: https://status.lyc8503.net powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
+ 💬 My Blog: [https://blog.lyc8503.net](https://blog.lyc8503.net) | ✔ Status Page: https://status.lyc8503.net powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
+
+ 🔗 Follow me on Fediverse: https://nya.one/@lyc8503
 
 <!--The START and END comments below are used in scripts at https://lyc8503.net/ -->
 
