@@ -1,17 +1,20 @@
 ### Hi there 👋
 
- 💬 My Blog: [https://blog.lyc8503.net](https://blog.lyc8503.net) | ✔ Status Page: https://status.lyc8503.net powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
+ 💬 My Blog: [https://blog.lyc8503.net](https://blog.lyc8503.net) ([English](https://blog.lyc8503.net/en) now available!)
+ 
+ ✔ Status Page: https://status.lyc8503.net powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 
  🔗 Follow me on Fediverse: [@lyc8503@nya.one](https://nya.one/@lyc8503)
 
 <!--The START and END comments below are used in scripts at https://lyc8503.net/ -->
 
 <!--START-->
-- 😄 Junior Majoring in Software Engineering(aka. 文档学院) at NJU | 我是古希腊掌管 prompt 的神!
-- 🔭 Currently trying to play with Apache Spark to build a recommendation system, and training my own LLM.
-- ⚡ To-study/do List: IDK, maybe learn double pinyin IME.
+- 💼 Working as a Go developer for some random Internet company in Shanghai
+- 😄 Graduated from NJU with a degree in Software Engineering, but [learnt nothing](https://blog.lyc8503.net/post/4-years-at-nju/)
+- 🔭 Currently writing some blogs & developing new features for UptimeFlare
+- ⚡ To-study/do List: Fixing my HomeLab, playing with Apache Spark, and training my own LLM, maybe also learn double pinyin IME
 - 🐟 Fish touching
-- 🎮 Sometimes play Minecraft modpacks/Touhou, currently playing ~~Enigmatica 2: Expert~~ Infinity Evolved<!--END-->
+- 🎮 Sometimes play Minecraft modpacks/Touhou, currently playing ~~Enigmatica 2: Expert~~ ~~Infinity Evolved~~ null<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
 
 ---
