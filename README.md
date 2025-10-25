@@ -14,7 +14,7 @@
 - 🔭 Currently writing some blogs & developing new features for UptimeFlare
 - ⚡ To-study/do List: Fixing my HomeLab, playing with Apache Spark, and training my own LLM, maybe also learn double pinyin IME
 - 🐟 Fish touching
-- 🎮 Sometimes play Minecraft modpacks/Touhou, currently playing ~~Enigmatica 2: Expert~~ ~~Infinity Evolved~~ null<!--END-->
+- 🎮 Sometimes play Minecraft modpacks/Touhou, currently playing ~~Enigmatica 2: Expert~~ ~~Infinity Evolved~~ Enigmatica 9: Expert<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
 
 ---
