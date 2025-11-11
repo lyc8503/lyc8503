@@ -12,6 +12,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Install Docker and jq
+        run: |
+          brew install docker jq colima
+          colima start
       - uses: lyc8503/my-readme-metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
