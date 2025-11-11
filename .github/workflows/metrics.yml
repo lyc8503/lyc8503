@@ -5,7 +5,7 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04-arm
     timeout-minutes: 30
     environment: 
       name: production
