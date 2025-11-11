@@ -5,17 +5,13 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-    runs-on: macos-15
+    runs-on: ubuntu-22.04
     timeout-minutes: 30
     environment: 
       name: production
     permissions:
       contents: write
     steps:
-      - name: Install Docker and jq
-        run: |
-          brew install docker jq colima
-          colima start
       - uses: lyc8503/my-readme-metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
