@@ -17,7 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base_indepth: true
           repositories_forks: true
-          # debug: true
+          debug: true
 
           plugin_languages: true
           plugin_languages_indepth: true
