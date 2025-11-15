@@ -33,6 +33,7 @@ jobs:
             kernel-builder-chopin
             blog.lyc8503.net-PersonalBlog
             nju-ics-2020-spring-nemu
+            AncientCode
           plugin_languages_indepth_custom: |
             NJU-uFFFD/DDLChecker
 
