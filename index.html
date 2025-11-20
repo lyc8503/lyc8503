@@ -1,213 +1,258 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <script src="static/xterm.min.js"></script>
-    <link href="static/xterm.min.css" rel="stylesheet">
+    <link href="static/xterm.min.css" rel="stylesheet" />
     <script src="static/xterm-addon-fit.min.js"></script>
     <script src="static/xterm-addon-web-links.min.js"></script>
     <title>Lyc8503's Personal Site</title>
-</head>
-<body style="background-color:#2D2E2C;">
-<div id="terminal" style="height: 96vh; width: 97.5vw; margin-left: 0.5vw;"></div>
+  </head>
+  <body style="background-color: #2d2e2c">
+    <div
+      id="terminal"
+      style="height: 96vh; width: 97.5vw; margin-left: 0.5vw"
+    ></div>
 
-<script>
-    const baseTheme = {
-        foreground: '#F8F8F8',
-        background: '#2D2E2C',
-        selection: '#5DA5D533',
-        black: '#1E1E1D',
-        brightBlack: '#262625',
-        red: '#CE5C5C',
-        brightRed: '#FF7272',
-        green: '#006400',
-        brightGreen: '#72FF72',
-        yellow: '#CCCC5B',
-        brightYellow: '#FFFF72',
-        blue: '#5D5DD3',
-        brightBlue: '#7279FF',
-        magenta: '#BC5ED1',
-        brightMagenta: '#E572FF',
-        cyan: '#5DA5D5',
-        brightCyan: '#72F0FF',
-        white: '#F8F8F8',
-        brightWhite: '#FFFFFF'
-    }
+    <script>
+      const baseTheme = {
+        foreground: "#F8F8F8",
+        background: "#2D2E2C",
+        selection: "#5DA5D533",
+        black: "#1E1E1D",
+        brightBlack: "#262625",
+        red: "#CE5C5C",
+        brightRed: "#FF7272",
+        green: "#006400",
+        brightGreen: "#72FF72",
+        yellow: "#CCCC5B",
+        brightYellow: "#FFFF72",
+        blue: "#5D5DD3",
+        brightBlue: "#7279FF",
+        magenta: "#BC5ED1",
+        brightMagenta: "#E572FF",
+        cyan: "#5DA5D5",
+        brightCyan: "#72F0FF",
+        white: "#F8F8F8",
+        brightWhite: "#FFFFFF",
+      };
 
-    const term = new window.Terminal({
+      const term = new window.Terminal({
         fontFamily: '"Cascadia Code", Menlo, monospace',
         theme: baseTheme,
         cursorBlink: true,
-        allowProposedApi: true
-    });
+        allowProposedApi: true,
+      });
 
-    const fitAddon = new FitAddon.FitAddon()
-    term.loadAddon(fitAddon)
-    term.loadAddon(new WebLinksAddon.WebLinksAddon());
-    term.open(document.getElementById('terminal'))
-    window.onresize = () => fitAddon.fit()
-    fitAddon.fit()
+      const fitAddon = new FitAddon.FitAddon();
+      term.loadAddon(fitAddon);
+      term.loadAddon(new WebLinksAddon.WebLinksAddon());
+      term.open(document.getElementById("terminal"));
+      window.onresize = () => fitAddon.fit();
+      fitAddon.fit();
 
-    async function startTerminal() {
+      async function startTerminal() {
+        let readmeInfo = "";
 
-        let readmeInfo = ""
-
-        fetch("/README.md").then(async data => {
-            readmeInfo = await data.text()
-        })
+        fetch("/README.md").then(async (data) => {
+          readmeInfo = await data.text();
+        });
 
         function sleep(ms) {
-            return new Promise(resolve => setTimeout(resolve, ms));
+          return new Promise((resolve) => setTimeout(resolve, ms));
         }
 
-        const typeStr = "Hello, World!\r\n\nHi There~ Welcome to lyc8503's site!\r\n\n"
+        const typeStr =
+          "Hello, World!\r\n\nHi There~ Welcome to lyc8503's site!\r\n\n";
         for (const c of typeStr) {
-            term.write(c)
+          term.write(c);
 
-            if (c !== '\r') {
-                await sleep(75)
-            }
+          if (c !== "\r") {
+            await sleep(75);
+          }
         }
 
-        term.writeln('─ \x1b[1mAbout Me\x1b[0m ───────────────────────────────────────────────────────────────────\r\n')
+        term.writeln(
+          "─ \x1b[1mAbout Me\x1b[0m ───────────────────────────────────────────────────────────────────\r\n",
+        );
 
-        const readmeMatch = readmeInfo.match(/<!--START-->(.*)<!--END-->/s)
+        const readmeMatch = readmeInfo.match(/<!--START-->(.*)<!--END-->/s);
         if (readmeMatch) {
-            term.writeln(readmeMatch[1].trim().replaceAll("\n", "\r\n"))
+          term.writeln(readmeMatch[1].trim().replaceAll("\n", "\r\n"));
         } else {
-            term.writeln("\x1b[31;1mFailed to fetch README.md\x1b[0m\r\nDon't worry, check it out at https://github.com/lyc8503")
+          term.writeln(
+            "\x1b[31;1mFailed to fetch README.md\x1b[0m\r\nDon't worry, check it out at https://github.com/lyc8503",
+          );
         }
-        term.write('\r\n──────────────────────────────────────────────────────────────────────────────\r\n')
+        term.write(
+          "\r\n──────────────────────────────────────────────────────────────────────────────\r\n",
+        );
 
-        term.write("\r\n\x1b[37;1mBelow is a simple interactive shell, try running `help`.\x1b[0m\r\n")
+        term.write(
+          "\r\n\x1b[37;1mBelow is a simple interactive shell, try running `help`.\x1b[0m\r\n",
+        );
 
-        let commandBuf = ""
+        let commandBuf = "";
         function prompt(term) {
-            commandBuf = '';
-            term.write('\r\n$ ');
+          commandBuf = "";
+          term.write("\r\n$ ");
         }
 
-        prompt(term)
+        prompt(term);
 
         const links = {
-            "github": "https://github.com/lyc8503",
-            "mail": "mailto:me@lyc8503.net",
-            "blog": "https://blog.lyc8503.net",
-            "file": "https://pan.lyc8503.net",
-        }
+          github: "https://github.com/lyc8503",
+          mail: "mailto:me@lyc8503.net",
+          blog: "https://blog.lyc8503.net",
+          file: "https://pan.lyc8503.net",
+        };
 
         let runCommand = async (term, command) => {
-            console.log("Run command: " + command)
+          console.log("Run command: " + command);
 
-            const commands = {
-                "help": {
-                    desc: 'Show help messages',
-                    func: () => {
-                        term.writeln("\x1b[37;1mAvailable commands:\x1b[0m")
-                        for (const i in commands) {
-                            term.writeln("\x1b[31;1m" + i + "\x1b[0m - " + commands[i].desc)
-                        }
-                    }
-                },
-                "ls": {
-                    desc: "List files",
-                    func: (term) => {
-                        for (const k in links) {
-                            term.writeln("drwxr-xr-x 1 lyc8503 users \x1b[96m" + k + "\x1b[0m -> \x1b[42m" + links[k] + "\x1b[0m")
-                        }
-                        term.writeln("-rw-r--r-- 1 lyc8503 users pub.gpg")
-                    }
-                },
-                "cd": {
-                    desc: "Change directory",
-                    func: (term, command) => {
-                        const parts = command.split(" ")
-                        if (!links[parts[1]]) {
-                            term.writeln("cd: " + parts[1] + ": No such directory")
-                            return
-                        }
-                        term.writeln("Loading...")
-                        location.href = links[parts[1]]
-                    }
-                },
-                "cat": {
-                    desc: "Concatenate files and print",
-                    func: async (term, command) => {
-                        const parts = command.split(" ")
-                        if (parts[1] !== "pub.gpg") {
-                            term.writeln("cat: " + parts[1] + ": No such file")
-                            return
-                        }
-                        
-                        try {
-                            const gpgKey = await ((await fetch("/lyc8503_gpg_public.key")).text())
-                            term.writeln(gpgKey.replaceAll("\n", "\r\n"))
-                        } catch (e) {
-                            term.writeln("Error fetching GPG key, please check it out at my GitHub profile via `cd github`.")
-                        }
-                    }
-                },
-                "clear": {
-                    desc: 'Clear the screen',
-                    func: () => {
-                        location.reload()
-                    }
-                },
-                "exit": {
-                    desc: 'Exit this shell',
-                    func: () => {
-                        window.close()
-                        // Close doesn't work if there's history in current tab
-                        // In which case just go back
-                        window.history.back()
-                    }
-                },
-            }
+          const commands = {
+            help: {
+              desc: "Show help messages",
+              func: () => {
+                term.writeln("\x1b[37;1mAvailable commands:\x1b[0m");
+                for (const i in commands) {
+                  term.writeln(
+                    "\x1b[31;1m" + i + "\x1b[0m - " + commands[i].desc,
+                  );
+                }
+              },
+            },
+            ls: {
+              desc: "List files",
+              func: (term) => {
+                for (const k in links) {
+                  term.writeln(
+                    "drwxr-xr-x 1 lyc8503 users \x1b[96m" +
+                      k +
+                      "\x1b[0m -> \x1b[42m" +
+                      links[k] +
+                      "\x1b[0m",
+                  );
+                }
+                term.writeln("-rw-r--r-- 1 lyc8503 users pub.gpg");
+              },
+            },
+            cd: {
+              desc: "Change directory",
+              func: (term, command) => {
+                const parts = command.split(" ");
+                if (!links[parts[1]]) {
+                  term.writeln("cd: " + parts[1] + ": No such directory");
+                  return;
+                }
+                term.writeln("Loading...");
+                location.href = links[parts[1]];
+              },
+            },
+            cat: {
+              desc: "Concatenate files and print",
+              func: async (term, command) => {
+                const parts = command.split(" ");
+                if (parts[1] !== "pub.gpg") {
+                  term.writeln("cat: " + parts[1] + ": No such file");
+                  return;
+                }
 
+                try {
+                  const gpgKey = await (
+                    await fetch("/lyc8503_gpg_public.key")
+                  ).text();
+                  term.writeln(gpgKey.replaceAll("\n", "\r\n"));
+                } catch (e) {
+                  term.writeln(
+                    "Error fetching GPG key, please check it out at my GitHub profile via `cd github`.",
+                  );
+                }
+              },
+            },
+            clear: {
+              desc: "Clear the screen",
+              func: () => {
+                location.reload();
+              },
+            },
+            exit: {
+              desc: "Exit this shell",
+              func: () => {
+                window.close();
+                // Close doesn't work if there's history in current tab
+                // In which case just go back
+                window.history.back();
+              },
+            },
+          };
 
-            const prog = command.split(" ", 2)[0]
+          const prog = command.split(" ", 2)[0];
 
-            if (prog in commands) {
-                await commands[prog].func(term, command.trim())
-            } else {
-                term.write("command not found: " + prog)
-            }
-        }
+          if (prog in commands) {
+            await commands[prog].func(term, command.trim());
+          } else {
+            term.write("command not found: " + prog);
+          }
+        };
 
-        term.onData(async e => {
-            switch (e) {
-                case '\u0003': // Ctrl+C
-                    term.write('^C');
-                    prompt(term);
-                    break;
-                case '\r': // Enter
-                    if (commandBuf.trim() !== "") {
-                        term.writeln("")
-                        await runCommand(term, commandBuf);
-                    }
-                    prompt(term)
-                    commandBuf = '';
-                    break;
-                case '\u007F': // Backspace (DEL)
-                    // Do not delete the prompt
-                    if (term._core.buffer.x > 2) {
-                        term.write('\b \b');
-                        if (commandBuf.length > 0) {
-                            commandBuf = commandBuf.substring(0, commandBuf.length - 1);
-                        }
-                    }
-                    break;
-                default: // Print all other characters for demo
-                    if (e >= String.fromCharCode(0x20) && e <= String.fromCharCode(0x7E) || e >= '\u00a0') {
-                        commandBuf += e;
-                        term.write(e);
-                    }
-            }
-        })
-    }
+        term.onData(async (e) => {
+          switch (e) {
+            case "\u0003": // Ctrl+C
+              term.write("^C");
+              prompt(term);
+              break;
+            case "\r": // Enter
+              if (commandBuf.trim() !== "") {
+                term.writeln("");
+                await runCommand(term, commandBuf);
+              }
+              prompt(term);
+              commandBuf = "";
+              break;
+            case "\u007F": // Backspace (DEL)
+              // Do not delete the prompt
+              if (term._core.buffer.x > 2) {
+                term.write("\b \b");
+                if (commandBuf.length > 0) {
+                  commandBuf = commandBuf.substring(0, commandBuf.length - 1);
+                }
+              }
+              break;
+            default: // Print all other characters for demo
+              if (
+                (e >= String.fromCharCode(0x20) &&
+                  e <= String.fromCharCode(0x7e)) ||
+                e >= "\u00a0"
+              ) {
+                commandBuf += e;
+                term.write(e);
+              }
+          }
+        });
+      }
 
-    startTerminal()
+      startTerminal();
+    </script>
 
-</script>
-</body>
+    <script>
+      // local cache service worker registration
+      // in case the server is down or user is offline
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("./sw.js", { scope: "./" })
+            .then(function (registration) {
+              console.log(
+                "ServiceWorker registered with scope:",
+                registration.scope,
+              );
+            })
+            .catch(function (err) {
+              console.log("ServiceWorker registration failed:", err);
+            });
+        });
+      }
+    </script>
+  </body>
 </html>
