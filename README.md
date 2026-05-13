@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+📦 I'm trying out [new platforms](https://blog.lyc8503.net/post/git-migration/) as [GitHub randomly suspended my account](https://blog.lyc8503.net/post/github-account-suspended/), also find me on [Codeberg](https://codeberg.org/lyc8503)!
+
  💬 My Blog: [https://blog.lyc8503.net](https://blog.lyc8503.net) ([English](https://blog.lyc8503.net/en) now available!)  
  
  ✔ Status Page: https://status.lyc8503.net powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)  
