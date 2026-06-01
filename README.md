@@ -8,6 +8,8 @@
  
  🔗 Follow me on Fediverse: [@lyc8503@nya.one](https://nya.one/@lyc8503)  
 
+ ☕ Buy me a coffee: [https://ko-fi.com/lyc8503](https://ko-fi.com/lyc8503)
+
 <!--The START and END comments below are used in scripts at https://lyc8503.net/ -->
 
 <!--START-->
