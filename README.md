@@ -2,10 +2,10 @@
 
 > 📢 I'm trying out [new platforms](https://blog.lyc8503.net/post/git-migration/) as [GitHub randomly suspended my account](https://blog.lyc8503.net/post/github-account-suspended/), also find me on [Codeberg](https://codeberg.org/lyc8503)!
 
-[![Blog](https://img.shields.io/badge/Blog_(CN%2FEN)-lyc8503.net-blue?style=for-the-badge&logo=rss)](https://blog.lyc8503.net)
-[![Fediverse](https://img.shields.io/badge/Fediverse-@lyc8503-6364ff?style=for-the-badge&logo=mastodon)](https://nya.one/@lyc8503)
-[![Status](https://img.shields.io/badge/Status-UptimeFlare-success?style=for-the-badge&logo=cloudflare)](https://status.lyc8503.net)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi)](https://ko-fi.com/lyc8503)
+<a href="https://blog.lyc8503.net"><img src="https://img.shields.io/badge/Blog_(CN%2FEN)-lyc8503.net-blue?style=for-the-badge&logo=rss" height="26"></a>
+<a href="https://nya.one/@lyc8503"><img src="https://img.shields.io/badge/Fediverse-@lyc8503-6364ff?style=for-the-badge&logo=mastodon" height="26"></a>
+<a href="https://status.lyc8503.net"><img src="https://img.shields.io/badge/Status-UptimeFlare-success?style=for-the-badge&logo=cloudflare" height="26"></a>
+<a href="https://ko-fi.com/lyc8503"><img src="https://img.shields.io/badge/Ko--fi-Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi" height="26"></a>
 
 <!--The START and END comments below are used in scripts at https://lyc8503.net/ -->
 <!--START-->
