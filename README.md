@@ -1,22 +1,18 @@
 ### Hi there 👋
 
-📦 I'm trying out [new platforms](https://blog.lyc8503.net/post/git-migration/) as [GitHub randomly suspended my account](https://blog.lyc8503.net/post/github-account-suspended/), also find me on [Codeberg](https://codeberg.org/lyc8503)!
+> 📢 I'm trying out [new platforms](https://blog.lyc8503.net/post/git-migration/) as [GitHub randomly suspended my account](https://blog.lyc8503.net/post/github-account-suspended/), also find me on [Codeberg](https://codeberg.org/lyc8503)!
 
- 💬 My Blog: [https://blog.lyc8503.net](https://blog.lyc8503.net) ([English](https://blog.lyc8503.net/en) now available!)  
- 
- ✔ Status Page: https://status.lyc8503.net powered by my own project [UptimeFlare](https://github.com/lyc8503/UptimeFlare)  
- 
- 🔗 Follow me on Fediverse: [@lyc8503@nya.one](https://nya.one/@lyc8503)  
-
- ☕ Buy me a coffee: [https://ko-fi.com/lyc8503](https://ko-fi.com/lyc8503)
+[![Blog](https://img.shields.io/badge/Blog_(CN%2FEN)-lyc8503.net-blue?style=for-the-badge&logo=rss)](https://blog.lyc8503.net)
+[![Fediverse](https://img.shields.io/badge/Fediverse-@lyc8503-6364ff?style=for-the-badge&logo=mastodon)](https://nya.one/@lyc8503)
+[![Status](https://img.shields.io/badge/Status-UptimeFlare-success?style=for-the-badge&logo=cloudflare)](https://status.lyc8503.net)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi)](https://ko-fi.com/lyc8503)
 
 <!--The START and END comments below are used in scripts at https://lyc8503.net/ -->
-
 <!--START-->
-- 💼 Working as a Go developer for some random Internet company in Shanghai
+- 💼 Working as a backend R&D for some random Internet company in Shanghai
 - 😄 Graduated from NJU with a degree in Software Engineering, but [learnt nothing](https://blog.lyc8503.net/post/4-years-at-nju/)
-- 🔭 Currently writing some blogs & building AS4242420167
-- ⚡ To-study/do List: playing with Apache Spark, maybe also learn double pinyin IME
+- 🔭 Currently learning double pinyin IME & writing some blogs
+- ⚡ To-study/do List: playing with Apache Spark
 - 🐟 Fish touching
 - 🎮 Sometimes play Minecraft modpacks/Touhou, currently playing ~~Enigmatica 2: Expert~~ ~~Infinity Evolved~~ Enigmatica 9: Expert<!--END-->
 - 🔑 [My GPG Pubkey](https://github.com/lyc8503/lyc8503/blob/main/lyc8503_gpg_public.key) [rotated 2024-06-25]
